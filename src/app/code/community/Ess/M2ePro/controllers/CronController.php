@@ -55,7 +55,7 @@ class Ess_M2ePro_CronController extends Mage_Core_Controller_Varien_Action
         ob_start();
 
         ignore_user_abort(true);
-        echo 'processing...';
+        // echo 'processing...';
 
         header('Connection: Close');
         header('Content-Length: '.ob_get_length());
